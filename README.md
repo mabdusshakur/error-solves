@@ -6,19 +6,23 @@
 
 ![image](https://github.com/mabdusshakur/errors-and-solutions-laravel/assets/82134930/31710ff2-c6a9-4320-9e7c-c2409a10df7a)
 
-* Solve 1 : php artisan vendor:publish --force --tag=livewire:assets
+* Solve 1: php artisan vendor:publish --force --tag=livewire:assets
 
 
 
 #### $table->renameColumn('old_name','new_name'); is not working.
 
-* Solve 1 : maybe you dont have package installed : [ composer require doctrine/dbal && composer install ]
+* Solve 1: maybe you don't have the package installed : [ composer require doctrine/dbal && composer install ]
 
 #### 419 Page Expired Laravel, or
 #### 419 error during postman testing,
 
 
 
-* Solve 1 : disable the csrf,
+* Solve 1: disable the csrf,
 * * Laravel 11 : $middleware->validateCsrfTokens(except: ['/*']);
   * ![image](https://github.com/user-attachments/assets/3e514d3b-7683-4aa2-bba2-412697c64969)
+
+#### Base table not found, 500 internal error,
+
+* Solve 1: database table not available, migrate the database.
