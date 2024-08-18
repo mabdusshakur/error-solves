@@ -26,3 +26,7 @@
 #### Base table not found, 500 internal error,
 
 * Solve 1: database table not available, migrate the database.
+
+#### Session table missing on Laravel 11,
+
+* Solve 1 : php artisan make:session-table
