@@ -30,3 +30,9 @@
 #### Session table missing on Laravel 11,
 
 * Solve 1 : php artisan make:session-table
+
+#### Unable to connect with STARTTLS: stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:\nerror:0A000086:SSL routines::certificate verify failed"
+
+* Solve 1 (Temporary ) : in config>mail.php
+- 'auth_mode'  => null,
+- 'verify_peer' => false,
