@@ -36,3 +36,5 @@
 * Solve 1 (Temporary ) : in config>mail.php
 - 'auth_mode'  => null,
 - 'verify_peer' => false,
+- ![image](https://github.com/user-attachments/assets/5deb5520-d113-4319-b2c1-302acd3a5282)
+
