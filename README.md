@@ -55,6 +55,8 @@ This documentation covers the steps to disable cookie encryption for both Larave
        'cookie_name_2',
    ];
    ```
+   ![image](https://github.com/user-attachments/assets/568917ec-2a95-42c4-9984-af218d7381a4)
+
 
 ### Laravel 11
 
@@ -69,5 +71,7 @@ This documentation covers the steps to disable cookie encryption for both Larave
        ]);
    })
    ```
+   ![image](https://github.com/user-attachments/assets/4049f0f5-9649-4af3-96fc-103c8386facc)
+
 
 
